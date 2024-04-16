@@ -8,12 +8,51 @@ main{
 }
 
 form>input{
-    font-size: 40px;
+    font-size: 35px;
     border-radius: 10px;
     margin: 20px;
     padding: 7px;
+    transition: 0.5s;
 }
 
 form>input::placeholder{
-    
+    color: rgb(167, 167, 167);
+}
+
+form>input:hover{
+    box-shadow: 1px 1px 20px rgb(42, 42, 235);
+}
+
+form>input:focus{
+    box-shadow: 1px 1px 20px rgb(184, 122, 6);
+}
+
+
+#rua, #cidade{
+    width: 745px;
+}
+
+#num, #uf{
+    width: 120px;
+}
+
+form>button{
+    font-size: 40px;
+    width: 450px;
+    padding: 4px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(42, 42, 235);
+    color: aliceblue;
+    text-shadow: 1px 1px 1px grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form>button:hover{
+    opacity: 0.95;
+}
+
+form>button:active{
+    background-color: rgb(11, 11, 73);
 }
