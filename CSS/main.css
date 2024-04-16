@@ -1,11 +1,12 @@
 main{
     margin: auto;
-    margin-top: 60px;
+    margin-top: 55px;
     width: 1000px;
     background-color: aliceblue;
     padding: 10px;
     box-shadow: 1px 1px 20px grey;
     border-radius: 10px;
+    border: solid blue 2px;
 }
 
 form>input{
@@ -14,6 +15,7 @@ form>input{
     margin: 20px;
     padding: 7px;
     transition: 0.5s;
+    border: solid blue 2px;
 }
 
 form>input::placeholder{
@@ -43,6 +45,7 @@ select{
     padding: 10px;
     border-radius: 10px;
     margin-left: 20px;
+    border: solid blue 2px;
 }
 
 select>option{
