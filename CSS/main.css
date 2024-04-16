@@ -29,10 +29,26 @@ form>input:focus{
 
 
 #rua, #cidade{
-    width: 745px;
+    width: 765px;
 }
 
-#num, #uf{
+#num{
+    width: 100px;
+}
+
+select{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+select>option{
+    font-size: 25px;
+}
+
+select{
     width: 120px;
 }
 
