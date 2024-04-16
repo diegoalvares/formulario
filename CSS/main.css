@@ -67,7 +67,7 @@ form>button{
 }
 
 form>button:hover{
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 form>button:active{
