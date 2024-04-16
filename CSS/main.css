@@ -1,0 +1,19 @@
+main{
+    margin: auto;
+    width: 1000px;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 1px 1px 20px grey;
+    border-radius: 10px;
+}
+
+form>input{
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 7px;
+}
+
+form>input::placeholder{
+    
+}
