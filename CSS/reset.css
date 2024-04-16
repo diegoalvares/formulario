@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom, blue, cyan);
+}
