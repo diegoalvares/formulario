@@ -75,12 +75,13 @@ form>button:active{
 }
 
 #olho{
-    width: 50px;
-    margin-top: -313px;
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    margin-top: 20px;
     margin-left: -100px;
     background-color: transparent;
     border: none;
-    position: absolute;
 }
 
 #olho>img{
