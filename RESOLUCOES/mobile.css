@@ -1,4 +1,4 @@
-@media (min-width: 320px){
+@media (max-width: 480px){
     main{
         margin-top: 270px;
     }
