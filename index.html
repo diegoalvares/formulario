@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-------------LINKS CSS INDEX------------>
+    <!-----------------LINKS CSS INDEX-------------------->
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/header.css ">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <!---------------------------------------->
+    <!---------------------------------------------------->
 
+    <!-------------LINKS CSS RESOLUÇÕES------------------>
+    <link rel="stylesheet" href="RESOLUCOES/1280x720.css">
+    <link rel="stylesheet" href="RESOLUCOES/1366x768.css">
+    <link rel="stylesheet" href="RESOLUCOES/1600x900.css">
+    <link rel="stylesheet" href="RESOLUCOES/1920x1080.css">
+    <link rel="stylesheet" href="RESOLUCOES/mobile.css">
+    <!---------------------------------------------------->
 
     <title>Formulário de Cadastro</title>
 </head>
@@ -29,7 +36,7 @@
             <input type="text" name="cidade" id="cidade" placeholder="Cidade">
 
             <!---------LISTA DE ESTADOS------------->
-            <select id="estado" name="estado">
+            <select id="estado">
                 <option value="nulo" id="uf">------</option>
                 <option value="AC">AC</option>
                 <option value="AL">Al</option>
@@ -63,7 +70,7 @@
             <!-------------------------------------->
 
             <input type="tel" name="telefone" id="cel" placeholder="Celular">
-            <input type="email" id="email" placeholder="@example.com" placeholder="Email" autocomplete="0ff"><br>
+            <input type="email" id="email" placeholder="@exemplo.com" placeholder="Email" autocomplete="0ff"><br>
             <input type="password" name="senha" id="senha" placeholder="Senha">
             <button type="button" id="olho"><img src="icones/olho-aberto.png" alt=""></button>
             <button type="button" id="cadastrar">Cadastrar</button>    

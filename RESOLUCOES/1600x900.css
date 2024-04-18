@@ -1,0 +1,10 @@
+@media (min-width: 1600px){
+    main{
+        margin-top: 100px;
+        }
+        
+    footer{
+        margin-top: 21vh;
+    }
+}
+
