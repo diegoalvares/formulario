@@ -1,4 +1,69 @@
-@media (max-width: 320px){
-        
+@media (min-width: 320px){
+    main{
+        margin-top: 270px;
+    }
+    
+    header{
+        padding-top: 40px;
+        text-align: center;
+        width: 1000px;
+        margin-bottom: 80px;
+    }
+    
+    header>span{
+           font-size: 40px;
+    }
+    #nome, #sobrenome,#senha{
+        width: 920px;
+        font-size: 50px;
+    }
+    #rua{
+        width: 720px;
+        font-size: 50px;
+    }
+
+    #num{
+        width: 140px;
+        font-size: 50px;
+    }
+
+    #cidade{
+        width: 720px;
+        font-size: 50px;
+    }
+
+    #estado{
+        width: 160px;
+        font-size: 50px;
+    }
+
+    select>option{
+        font-size: 30px;
+    }
+
+    #cel{
+        width: 380px;
+        font-size: 50px;
+    }
+
+    #email{
+        width: 480px;
+        font-size: 50px;
+    }
+
+    #cadastrar{
+        width: 940px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-size: 50px;
+    }
+
+    footer{
+        width: 1010px;
+        margin-top: 89vh;
+        font-size: 40px;
+    }
 }
+
+
 
