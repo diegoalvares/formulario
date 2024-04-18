@@ -10,12 +10,14 @@ const senha = document.getElementById('senha');
 
 const cadastrar = document.getElementById('cadastrar')
 
-cadastrar.addEventListener('click', function(){
+cadastrar.addEventListener('click', function(e){
     if(nome.value == '' || s_nome.value == '' || rua.value == '' || num.value == '' || cidade.value == '' || uf.value == 'nulo' || tel.value == '' ||
-    email.value == '' || senha.value == '')
+    email.value == '' || senha.value == ''){
+        e.preventDefault();
         alert('Existem campos não preenchidos!');
+    }
    
     else{
-        alert('Seu cadastro foi realizado com sucesso!')
+        alert('Cadastro efetuado com sucesso!')
     }
 })
