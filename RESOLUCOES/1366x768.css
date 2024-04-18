@@ -2,6 +2,12 @@
     main{
         margin-top: 70px;
         }
+
+    #erro{
+        position: absolute;
+        margin-top: -610px;
+        margin-left: 940px;
+    }
         
     footer{
         margin-top: 11.4vh;
