@@ -1,0 +1,31 @@
+#erro{
+    display: none;
+    background-color: rgb(187, 67, 67);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px grey;
+    float: inline-end;
+    margin-right: 60px;
+    margin-top: -670px;
+}
+
+#finalizar{
+    display: none;
+    background-color: rgb(67, 187, 103);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px grey;
+    float: inline-end;
+    margin-right: 60px;
+    margin-top: -670px;
+}
