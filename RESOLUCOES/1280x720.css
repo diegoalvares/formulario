@@ -4,6 +4,11 @@
         margin-top: -610px;
         margin-left: 890px;
     }
+
+    #finalizar{
+        width: 93.75vw;
+        height: 96vh;
+    }
     
     footer{
         margin-top: 8vh;

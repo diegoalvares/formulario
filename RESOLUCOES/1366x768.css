@@ -8,9 +8,14 @@
         margin-top: -610px;
         margin-left: 940px;
     }
+
+    #finalizar{
+        width: 94.3vw;
+        height: 94vh;
+    }
         
     footer{
-        margin-top: 11.4vh;
+        margin-top: 13vh;
     }
 }
 

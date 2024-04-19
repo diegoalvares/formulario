@@ -1,10 +1,21 @@
 @media (min-width: 1600px){
     main{
-        margin-top: 100px;
+        margin-top: 40px;
+        }
+
+        #erro{
+            margin-left: 1100px;
+            margin-top: -580px;
+        }
+
+        #finalizar{
+            margin-top: -620px;
+            height: 90.8vh;
+            width: 93.8vw;
         }
         
     footer{
-        margin-top: 21vh;
+        margin-top: 11.2vh;
     }
 }
 
