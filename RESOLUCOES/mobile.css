@@ -1,6 +1,6 @@
 @media (max-width: 480px){
     main{
-        margin-top: 270px;
+        margin-top: 50px;
     }
     
     header{
@@ -56,6 +56,18 @@
         padding-top: 14px;
         padding-bottom: 14px;
         font-size: 50px;
+    }
+
+    #erro{
+        position: absolute;
+        margin-left: 600px;
+        margin-top: -920px;
+    }
+
+    #finalizar{
+        margin-top: -1000px;
+        width: 950px;
+        height: 1340px;
     }
 
     footer{
