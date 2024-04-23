@@ -40,7 +40,7 @@ cadastrar.addEventListener('click', function(e){
         }
         setTimeout(apagar, '3000')
     }
-   
+  
     else{
         finalizar.style.display='block'
     }
